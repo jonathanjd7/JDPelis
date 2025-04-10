@@ -90,7 +90,7 @@ function App() {
       <div className="min-h-screen flex flex-col items-center bg-blue-600 p-4">
         <SearchBar onSearch={handleSearch} />
 
-        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-6">
           {filteredProducts.length > 0 ? (
             filteredProducts.map((product) => (
               <ProductCard
